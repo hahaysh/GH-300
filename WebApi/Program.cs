@@ -28,6 +28,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Enable static files
+app.UseStaticFiles();
+
 
 var cities = new[]
 {
@@ -59,6 +62,8 @@ app.MapGet("/weatherforecast", () =>
 
 
 app.MapGet("/cities", () => Results.Json(cities)).WithName("GetCities").WithOpenApi();
+
+app.MapGet("/health", () => "Healthy").WithName("HealthCheck");
 
 app.Run();
 

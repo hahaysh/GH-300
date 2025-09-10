@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Demo\\Temp\\GH-300\\ConsoleApp\\ConsoleApp.csproj": {}
+    "/home/runner/work/GH-300/GH-300/ConsoleApp/ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Demo\\Temp\\GH-300\\ConsoleApp\\ConsoleApp.csproj": {
+    "/home/runner/work/GH-300/GH-300/ConsoleApp/ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Demo\\Temp\\GH-300\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "/home/runner/work/GH-300/GH-300/ConsoleApp/ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Demo\\Temp\\GH-300\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\hahay\\.nuget\\packages\\",
-        "outputPath": "C:\\Demo\\Temp\\GH-300\\ConsoleApp\\obj\\",
+        "projectPath": "/home/runner/work/GH-300/GH-300/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/GH-300/GH-300/ConsoleApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hahay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,13 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

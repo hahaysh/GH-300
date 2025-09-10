@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>프로젝트 구조 설명</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #222; }
+        h1, h2 { color: #2d6cdf; }
+        pre { background: #eee; padding: 1em; border-radius: 6px; }
+        ul { line-height: 1.7; }
+    </style>
+</head>
+<body>
+    <h1>프로젝트 구조 설명</h1>
+    <h2>최상위 폴더</h2>
+    <ul>
+        <li><b>README.md</b> - 프로젝트 전반에 대한 설명 파일</li>
+        <li><b>ConsoleApp/</b> - 콘솔 애플리케이션(C# .NET 8.0)</li>
+        <li><b>WebApi/</b> - ASP.NET Core Web API 애플리케이션</li>
+    </ul>
+
+    <h2>ConsoleApp/</h2>
+    <ul>
+        <li><b>ConsoleApp.csproj</b> - 콘솔 앱 프로젝트 파일</li>
+        <li><b>Program.cs</b> - 콘솔 앱의 진입점(Main 함수)</li>
+        <li><b>bin/</b> - 빌드된 실행 파일 및 라이브러리(.dll, .exe 등) 저장 폴더</li>
+        <li><b>obj/</b> - 빌드 중간 산출물 저장 폴더</li>
+    </ul>
+
+    <h2>WebApi/</h2>
+    <ul>
+        <li><b>WebApi.csproj</b> - Web API 프로젝트 파일</li>
+        <li><b>Program.cs</b> - Web API의 진입점(Main 함수 및 Startup 구성)</li>
+        <li><b>appsettings.json</b>, <b>appsettings.Development.json</b> - 환경별 설정 파일</li>
+        <li><b>WebApi.http</b> - API 테스트용 HTTP 요청 샘플 파일</li>
+        <li><b>bin/</b> - 빌드된 실행 파일 및 라이브러리 저장 폴더</li>
+        <li><b>obj/</b> - 빌드 중간 산출물 저장 폴더</li>
+        <li><b>Properties/launchSettings.json</b> - 개발 환경 실행 설정</li>
+    </ul>
+
+    <h2>빌드 및 실행</h2>
+    <ul>
+        <li>각 프로젝트 폴더(ConsoleApp, WebApi)에서 <code>dotnet build</code> 또는 <code>dotnet run</code> 명령어로 빌드/실행</li>
+    </ul>
+
+    <h2>기타</h2>
+    <ul>
+        <li>각 bin/obj 폴더는 빌드 시 자동 생성되며, 소스 관리에는 포함하지 않는 것이 일반적입니다.</li>
+    </ul>
+</body>
+</html>
